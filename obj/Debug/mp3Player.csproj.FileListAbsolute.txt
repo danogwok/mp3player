@@ -1,0 +1,8 @@
+C:\Users\Daniel\Documents\SharpDevelop Projects\MyFirstProject\mp3Player\bin\Debug\mp3Player.exe.config
+C:\Users\Daniel\Documents\SharpDevelop Projects\MyFirstProject\mp3Player\bin\Debug\mp3Player.exe
+C:\Users\Daniel\Documents\SharpDevelop Projects\MyFirstProject\mp3Player\bin\Debug\mp3Player.pdb
+C:\Users\Daniel\Documents\SharpDevelop Projects\MyFirstProject\mp3Player\obj\Debug\mp3Player.csprojResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\SharpDevelop Projects\MyFirstProject\mp3Player\obj\Debug\mp3Player.MainForm.resources
+C:\Users\Daniel\Documents\SharpDevelop Projects\MyFirstProject\mp3Player\obj\Debug\mp3Player.csproj.GenerateResource.Cache
+C:\Users\Daniel\Documents\SharpDevelop Projects\MyFirstProject\mp3Player\obj\Debug\mp3Player.exe
+C:\Users\Daniel\Documents\SharpDevelop Projects\MyFirstProject\mp3Player\obj\Debug\mp3Player.pdb
