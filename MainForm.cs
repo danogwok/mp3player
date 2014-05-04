@@ -10,7 +10,6 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
-//my own
 using System.ComponentModel;
 using System.Data;
 using System.Linq;
@@ -38,42 +37,27 @@ namespace mp3Player
 			//
 		}
 		
-
-		
-//		private void btnOpen_Click(object sender, EventArgs e)
-//		void button1_Click(object sender, EventArgs e)
-//        {
-//            if (openFileDialog1.ShowDialog() == DialogResult.OK)
-//            {
-//                mp3player.Open(openFileDialog1.FileName);
-//                txtbxFilepath.Text = openFileDialog1.FileName;
-//            }
-//        }
-		
-
-		
-
+		//this method opens the music file
 		void Button1Click(object sender, System.EventArgs e)
 		{
 			 if (openFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 mp3player.Open(openFileDialog1.FileName);
-                txtbxFilepath.Text = openFileDialog1.FileName;
+                txtFileName.Text = openFileDialog1.FileName;
             }
 		}
 		
-	
-		
-		
+		//this method plays the file		
 		void Button2Click(object sender, System.EventArgs e)
 		{
 			mp3player.Play();
 		}
 		
+		//this method stops the mp3 file
 		void Button3Click(object sender, System.EventArgs e)
 		{
 			mp3player.Stop();
-			txtbxFilepath.Text = "";
+			txtFileName.Text = "";
 		}
 		
 	}

@@ -21,30 +21,26 @@ namespace mp3Player
 		[DllImport("winmm.dll")]
 		private static extern long mciSendString(string lpstrCommand, StringBuilder lpstrReturnString, int uReturnLength, int hwndCallback);
 		
-//		public void Open(String file)
-//		{
-//			string command = "open \"" + file + "\" type MPEGVideo alias Mp3";
-//            mciSendString(command, null, 0, 0);
-//		}
+
 		
 		public void Open(string file)
         {
-            string command = "open \"" + file + "\" type MPEGVideo alias MyMusic";
+            string command = "open \"" + file + "\" type MPEGVideo alias Music";
             mciSendString(command, null, 0, 0);
         }
 		
 		public void Play()
 		{
-			string command = "play MyMusic";
+			string command = "play Music";
             mciSendString(command, null, 0, 0);
 		}
 		
 		public void Stop()
 		{
-			string command = "stop MyMusic";
+			string command = "stop Music";
             mciSendString(command, null, 0, 0);
 
-            command = "close MyMusic";
+            command = "close Music";
             mciSendString(command, null, 0, 0);
 		}
 	}

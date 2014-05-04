@@ -39,8 +39,8 @@ namespace mp3Player
 			this.Button1 = new System.Windows.Forms.Button();
 			this.Button2 = new System.Windows.Forms.Button();
 			this.Button3 = new System.Windows.Forms.Button();
-			this.label1 = new System.Windows.Forms.Label();
-			this.txtbxFilepath = new System.Windows.Forms.TextBox();
+			this.Title = new System.Windows.Forms.Label();
+			this.txtFileName = new System.Windows.Forms.TextBox();
 			this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
 			this.SuspendLayout();
 			// 
@@ -73,21 +73,21 @@ namespace mp3Player
 			this.Button3.Text = "Stop";
 			this.Button3.UseVisualStyleBackColor = true;
 			// 
-			// label1
+			// Title
 			// 
-			this.label1.ForeColor = System.Drawing.Color.Coral;
-			this.label1.Location = new System.Drawing.Point(12, 13);
-			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(57, 23);
-			this.label1.TabIndex = 3;
-			this.label1.Text = "label1";
+			this.Title.ForeColor = System.Drawing.Color.Coral;
+			this.Title.Location = new System.Drawing.Point(12, 13);
+			this.Title.Name = "Title";
+			this.Title.Size = new System.Drawing.Size(57, 23);
+			this.Title.TabIndex = 3;
+			this.Title.Text = "Title";
 			// 
-			// txtbxFilepath
+			// txtFileName
 			// 
-			this.txtbxFilepath.Location = new System.Drawing.Point(97, 12);
-			this.txtbxFilepath.Name = "txtbxFilepath";
-			this.txtbxFilepath.Size = new System.Drawing.Size(205, 20);
-			this.txtbxFilepath.TabIndex = 4;
+			this.txtFileName.Location = new System.Drawing.Point(97, 12);
+			this.txtFileName.Name = "txtFileName";
+			this.txtFileName.Size = new System.Drawing.Size(205, 20);
+			this.txtFileName.TabIndex = 4;
 			// 
 			// openFileDialog1
 			// 
@@ -99,8 +99,8 @@ namespace mp3Player
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.Black;
 			this.ClientSize = new System.Drawing.Size(333, 83);
-			this.Controls.Add(this.txtbxFilepath);
-			this.Controls.Add(this.label1);
+			this.Controls.Add(this.txtFileName);
+			this.Controls.Add(this.Title);
 			this.Controls.Add(this.Button3);
 			this.Controls.Add(this.Button2);
 			this.Controls.Add(this.Button1);
@@ -109,10 +109,10 @@ namespace mp3Player
 			this.ResumeLayout(false);
 			this.PerformLayout();
 		}
+		private System.Windows.Forms.TextBox txtFileName;
 		private System.Windows.Forms.Button Button3;
 		private System.Windows.Forms.OpenFileDialog openFileDialog1;
-		private System.Windows.Forms.TextBox txtbxFilepath;
-		private System.Windows.Forms.Label label1;
+		private System.Windows.Forms.Label Title;
 		private System.Windows.Forms.Button Button2;
 		private System.Windows.Forms.Button Button1;
 	}
